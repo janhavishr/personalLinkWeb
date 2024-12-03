@@ -1,0 +1,95 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff7eb3, #9575ff);
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background: #ff4081;
+    padding: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+/* Section Styling */
+.test-section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    color: #333333;
+}
+
+.test-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #ff4081;
+}
+
+/* Question Block Styling */
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.question label {
+    display: block;
+    font-size: 1rem;
+    margin: 8px 0;
+    color: #555555;
+    cursor: pointer;
+}
+
+/* Input Styling */
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    background: #ff4081;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #ff1744;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+footer {
+    background: #ff4081;
+    color: #ffffff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}

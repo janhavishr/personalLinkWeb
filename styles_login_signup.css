@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff6a00, #ffce00);
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+.form-container {
+    margin: 50px auto;
+    background: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+    color: #ff6a00;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #ff6a00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #e55b00;
+}
+
+#toggle-text {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#toggle-form {
+    color: #ff6a00;
+    cursor: pointer;
+    font-weight: bold;
+}
